@@ -4,9 +4,9 @@
     }
   });
 
-  var sections = document.getElementsByTagName("section");
-  for (var i = 0; i < sections.length; i ++) {
-    sections[i].style.height = window.innerHeight + "px";
+  // Full Screen sections
+  var sections = ['slide-show', 'slide-venue'];
+  for (var index in sections) {
+    document.getElementById(sections[index]).style.height = window.innerHeight + "px";
   }
-
 })();

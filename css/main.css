@@ -6,51 +6,51 @@
 /* SKollr, as per https://ihatetomatoes.net/demos/parallax-scroll-effect/ */
 
 body, html {
-    height: 100%;
-    min-height: 100%;
+  height: 100%;
+  min-height: 100%;
 }
 
 header {
-   position: fixed;
-   padding: 20px;
-   z-index: 99999;
+  position: fixed;
+  padding: 20px;
+  z-index: 99999;
 }
 
 /* CSS */
 .hsContainer {
-    display: table;
-    table-layout: fixed;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-   /* opacity: 0; */
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+ /* opacity: 0; */
 }
 
 .hsContent {
-    max-width: 450px;
-    margin: -150px auto 0 auto;
-    display: table-cell;
-    vertical-align: middle;
-    color: #ebebeb;
-    text-shadow: 2px 2px #333;
-    padding: 0 8%;
-    text-align: center
+  max-width: 450px;
+  margin: -150px auto 0 auto;
+  display: table-cell;
+  vertical-align: middle;
+  color: #ebebeb;
+  text-shadow: 2px 2px #333;
+  padding: 0 8%;
+  text-align: center
 }
 
 .bcg {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
 /* Slides */
 
 #slide-show .bcg {
-    background-image: url('../images/show-opt.jpg');
+  background-image: url('../images/show-opt.jpg');
 }
 
 #slide-show .hsContent {
@@ -58,11 +58,23 @@ header {
 }
 
 #slide-venue .bcg {
-    background-image: url('../images/venue-opt.jpg');
+  background-image: url('../images/venue-opt.jpg');
 }
 
 #slide-venue .hsContent {
-    text-align: right;
+  text-align: left;
+  vertical-align: top;
+}
+
+#slide-accommodations .bcg {
+  /* Red flowers pattern by VectorTree.net
+  License: Creative Commons 3.0 Attribution */
+  background-image: url('../images/free-pattern-floral-motif.png');
+  background-repeat: repeat;
+  background-attachment: initial;
+  background-size: initial;
+  height: 630px;
+  text-align: center
 }
 
 .hsContent h2 {
