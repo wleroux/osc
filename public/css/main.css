@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+  min-height: 100%;
+  background-color: #fff;
+}
+
+/* Header */
+header {
+  padding: 20px;
+  color: #333;
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  position: fixed;
+  padding: 20px;
+  top: 20px;
+  width: 100%;
+  text-align: right;
+  box-sizing: border-box;
+}
+
+nav a {
+  font-size: 120%;
+  padding: 10px 10px;
+}
+
+a {
+  color: #444;
+  text-decoration: none;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #111;
+}
+
+.highlight {
+  padding: 10px 10px;
+  background-color: #D88;
+  border-radius: 4px;
+}
+
+
+/* Main */
+main {
+  text-align: center;
+}
+
+iframe {
+  padding: 40px 40px;
+}
+
+section .content {
+  padding: 20px 20px;
+  width: 75%;
+  margin: auto;
+}
+
+section h1 {
+  padding: 20px 10px;
+}
+
+section:nth-child(odd) {
+  background-color: #eee;
+}
+
+section h1 {
+  font-size: 150%;
+  padding: 0px 0px 10px 0px;
+}
+
+section h2 {
+  font-size: 120%;
+}
+
+.partner {
+  display: inline-block;
+  width: 250px !important;
+  padding: 10px 10px;
+}
+
+.partner img {
+  width: 250px;
+}
+
+.partner p {
+  /*width: 250px;*/
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  vertical-align: center;
+  padding: 75px 0px;
+  background-color: #444;
+}
+
+footer .highlight {
+  font-size: 150%;
+  padding: 15px;
+  background-color: #B66;
+}
+
+footer a {
+  color: #DDD;
+}
+
+footer a:hover {
+  color: #EEE;
+}

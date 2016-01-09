@@ -13,6 +13,7 @@
     "tests"
   ],
   "dependencies": {
-    "skrollr": "~0.6.30"
+    "skrollr": "~0.6.30",
+    "rxjs": "~4.0.7"
   }
 }
