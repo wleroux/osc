@@ -8,6 +8,11 @@ body, html {
   padding-top: 40px;
 }
 
+p {
+  margin: 0.5em !important;
+}
+
+
 a.navlink {
   display: block;
   position: relative;
@@ -46,6 +51,14 @@ a.highlight:hover {
 
 .partner img {
   width: 250px;
+}
+
+div.performer {
+  padding-bottom: 20px;
+}
+.performer img {
+  width: 100%;
+  height: auto;
 }
 
 footer {
