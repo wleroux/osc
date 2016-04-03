@@ -49,6 +49,11 @@ a.highlight:hover {
   background-color: #944;
 }
 
+.partner {
+  text-align: center;
+  margin: auto;
+}
+
 .partner img {
   width: 250px;
 }
@@ -57,6 +62,11 @@ div.performer {
   padding-bottom: 20px;
 }
 .performer img {
+  width: 100%;
+  height: auto;
+}
+
+.dj img {
   width: 100%;
   height: auto;
 }
