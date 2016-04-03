@@ -49,6 +49,11 @@ a.highlight:hover {
   background-color: #944;
 }
 
+.partner {
+  text-align: center;
+  margin: auto;
+}
+
 .partner img {
   width: 250px;
 }
